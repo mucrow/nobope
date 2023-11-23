@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://c4hhh8y4tm3so"]
+
+[node name="BattleScene" type="Node2D"]
+
+[node name="LeftMon" type="Node2D" parent="."]
+position = Vector2(332, 318)
+
+[node name="RightMon" type="Node2D" parent="."]
+position = Vector2(850, 322)
+
+[node name="BattleUI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1150.0
+offset_bottom = 638.0
